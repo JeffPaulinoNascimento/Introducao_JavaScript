@@ -21,6 +21,8 @@ ctrl-alt-c = Color-picker(mostra a cor no css);
     <main>
       <section class="container">
         <h2>Meus pacientes</h2>
+        <label for="filtrar-tabela">Pesquisa</label>  
+        <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente"></input>
         <table>
           <thead>
             <tr>
@@ -77,7 +79,7 @@ ctrl-alt-c = Color-picker(mostra a cor no css);
 
     <section class="container">
 	  <h2 id="titulo-form">Adicionar novo paciente</h2>
-	  <ul id="mensagem-erro">
+	  <ul id="mensagens-erro">
 		  
 	  </ul>
       <form id="form-adiciona">
@@ -130,5 +132,8 @@ ctrl-alt-c = Color-picker(mostra a cor no css);
 
     <script src="js/calcula-imc.js"></script>
     <script src="js/form.js"></script>
+    <script src="js/remover-paciente.js"></script>
+    <script src="js/filtro.js"></script>
+
   </body>
 </html>
