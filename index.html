@@ -23,6 +23,7 @@ ctrl-alt-c = Color-picker(mostra a cor no css);
         <h2>Meus pacientes</h2>
         <label for="filtrar-tabela">Pesquisa</label>  
         <input type="text" name="filtro" id="filtrar-tabela" placeholder="Digite o nome do paciente"></input>
+
         <table>
           <thead>
             <tr>
@@ -74,6 +75,11 @@ ctrl-alt-c = Color-picker(mostra a cor no css);
             </tr>
           </tbody>
         </table>
+        <span id="erro-ajax" class="invisivel">Erro ao buscar pacientes</span>
+        <button id="buscar-pacientes" class="botao bto-principal">
+          Buscar Paciente
+        </button>
+
       </section>
     </main>
 
@@ -134,6 +140,7 @@ ctrl-alt-c = Color-picker(mostra a cor no css);
     <script src="js/form.js"></script>
     <script src="js/remover-paciente.js"></script>
     <script src="js/filtro.js"></script>
+    <script src="js/buscar-pacientes.js"></script>
 
   </body>
 </html>
